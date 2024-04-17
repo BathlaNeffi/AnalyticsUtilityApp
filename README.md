@@ -51,7 +51,7 @@ yarn build
 
 ## Usage
 
-Once the development server is running, you can access the utility app in your browser at http://localhost:3000/. Try typing in the input field to see the autocomplete feature in action.
+Once the development server is running, you can access the utility app in your browser at http://localhost:3000/. Try  click on utility buttons.
 
 ## Conclusion
 
