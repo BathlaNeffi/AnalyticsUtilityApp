@@ -4,6 +4,7 @@ import datas from "../../Wine-Data.json";
 import useCalculate from "./useCalculate";
 
 const Flavanoids: React.FC = () => {
+  // Used custom hooks for clean and maintainable code
   const { loading, resultantData } = useCalculate(datas, "Flavanoids");
 
   const rows = (

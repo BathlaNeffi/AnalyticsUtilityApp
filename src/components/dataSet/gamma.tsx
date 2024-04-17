@@ -14,14 +14,17 @@ const Gamma: React.FC = () => {
   const [newData, setNewData] = useState<WineData[]>([]);
 
   useEffect(() => {
+    // This process will add gamma key in the data
     const populatedData: any = datas.map(data => ({
       ...data,
       gamma: parseFloat(((data.Ash as number * data.Hue as number) / data.Magnesium).toFixed(3))
     }));
     setNewData(populatedData);
-  }, []);
 
+  }, []);
+  // Used custom hooks for clean and maintainable code
   const { loading, resultantData } = useCalculate(newData, "gamma");
+  
 
   const rows = (
     <>
