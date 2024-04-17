@@ -25,7 +25,7 @@ git clone https://github.com/BathlaNeffi/AnalyticsUtilityApp.git
 2. Navigate To the Project Directory 
 
 ```js
-cd autoComplete
+cd analystics
 ```
 3. Install dependencies: 
 
